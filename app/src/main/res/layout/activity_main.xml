@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cascade="http://schemas.android.com/apk/res-auto">
+
+    <com.raystone.ray.cascadelayout.CascadeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        cascade:horizontal_spacing = "30dp"
+        cascade:vertical_spacing = "16dp"
+        android:paddingLeft="16dp">
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="#FF0000"
+            cascade:layout_vertical_spacing = "0dp"/>
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="#00FF00"
+            cascade:layout_vertical_spacing = "30dp"/>
+        <View
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:background="#0000FF"
+            cascade:layout_vertical_spacing = "10dp"/>
+
+
+    </com.raystone.ray.cascadelayout.CascadeLayout>
+
+
+</RelativeLayout>
+
+
